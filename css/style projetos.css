@@ -66,69 +66,41 @@ header .btn-Nome button:hover {
     background-color: rgb(40, 40, 255);
 }
 
-/* Estilo da seção hero */
-.hero {
-    display: flex;
-    align-items: center;
-    padding: 100px 4%;
-    background: linear-gradient(to right, #111, #222);
-    border-radius: 20px;
-    overflow: hidden;
-}
-.imagem {
-
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: center 30%;
-    margin-right: 20px;
-    box-shadow: 0px 0px 15px rgb(40, 40, 255);
-}
-
-.hero-text {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 100px;
-}
-
-.hero h1 {
-    font-size: 2.5rem;
-    margin: 0;
-}
-
-.hero p {
-    font-size: 1.2rem;
-    margin: 10px 0;
-}
-
-.btn-explore {
-    padding: 10px 30px;
-    background-color: rgb(52, 52, 255);
-    border: none;
-    border-radius: 30px;
-    color: #fff;
-    font-weight: 600;
-    text-decoration: none;
-    transition: background-color 0.3s, box-shadow 0.3s;
-}
-
-.btn-explore:hover {
-    box-shadow: 0px 0px 8px rgb(52, 52, 255);
-    background-color: rgb(40, 40, 255);
-}
-
 main {
     padding: 40px 4%;
 }
 
 h2 {
     margin-bottom: 20px;
+    text-align: center;
+    font-size: 2em;
+    color: rgb(52, 52, 255);
 }
 
-section {
-    margin-bottom: 40px;
+.projects {
+    margin-top: 20px;
+}
+
+.project {
+    background: #222;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    color: rgb(52, 52, 255);
+}
+
+.project a {
+    color: rgb(52, 52, 255);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.project a:hover {
+    color: #fff;
 }
 
 footer {
