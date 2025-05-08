@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* Estilo do cabeçalho */
+header {
+    padding: 20px 4%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #5c5c5c;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+header a:hover {
+    color: #fff;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header .btn-contato button,
+header .btn-Nome button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgb(52, 52, 255);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    color: #fff;
+}
+
+header .btn-contato button:hover,
+header .btn-Nome button:hover {
+    box-shadow: 0px 0px 8px rgb(52, 52, 255);
+    background-color: rgb(40, 40, 255);
+}
+
+main {
+    padding: 40px 4%;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2em;
+    color: rgb(52, 52, 255);
+}
+
+.experience {
+    margin-top: 20px;
+}
+
+.job {
+    background: #222;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    color: rgb(52, 52, 255);
+}
+
+.job h4 {
+    color: #bbb;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #111;
+}
